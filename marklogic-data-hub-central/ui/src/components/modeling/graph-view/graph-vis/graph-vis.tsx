@@ -1,22 +1,61 @@
-import React, {useState, useEffect, useLayoutEffect} from "react";
+import React, {useState, useEffect, useLayoutEffect, useRef} from "react";
 import Graph from "react-graph-vis";
 import "./graph-vis.scss";
 import ReactDOMServer from "react-dom/server";
 import {faFileExport, faTrashAlt, faAddressBook, faAmbulance} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import NodeSvg from "./node-svg";
+import { Menu, Dropdown } from 'antd';
+import { DataSet } from 'vis-data';
 
 type Props = {
   entityTypes: any;
   handleEntitySelection: any;
 };
 
+const defaultNodeProps: any = {
+  shape: "box",
+  shapeProperties: {
+    borderRadius: 2
+  },
+  icon: {
+    face: '"Font Awesome 5 Free"',
+    code: "\f82f",
+    size: 50,
+    color: "#f0a30a",
+  },
+  font: {
+    multi: true,
+    align: "left",
+    bold: {
+      color: "#6773af",
+      vadjust: 3,
+      size: 12
+    },
+  },
+  margin: 10,
+  widthConstraint: {
+    minimum: 80
+  },
+};
+
 const GraphVis: React.FC<Props> = (props) => {
+
+  const graphRef = useRef(null);
+  //let graphType = "shape";
+  let graphType = "image";
+
+  let emptyDataSet = new DataSet();
 
   const [nodePositions, setNodePositions] = useState({});
   const [physicsEnabled, setPhysicsEnabled] = useState(true);
-  const [graphData, setGraphData] = useState({nodes: [], edges: []});
+  //const [graphData, setGraphData] = useState({nodes: emptyDataSet, edges: emptyDataSet});
+  const [graphData, setGraphData] = useState({nodes: emptyDataSet, edges: emptyDataSet});
   const [testingMode, setTestingMode] = useState(true); // Should be used further to handle testing only in non-production environment
+  
+  const [contextMenuVisible, setContextMenuVisible] = useState(false);
+  const [contextMenuChanged, setContextMenuChanged] = useState(false);
+  const [contextClick, setContextClick] = useState(false);
 
   //Initializing network instance
   const [network, setNetwork] = useState<any>(null);
@@ -28,7 +67,10 @@ const GraphVis: React.FC<Props> = (props) => {
 
   // Initialize or update graph
   useEffect(() => {
+    // TODO use DataSet to performantly manage changes to graph data (don't rerender everything on change)
+    let nodes = new DataSet(getNodes());
     setGraphData({
+      //nodes: nodes,
       nodes: getNodes(),
       edges: getEdges()
     });
@@ -125,16 +167,34 @@ const GraphVis: React.FC<Props> = (props) => {
   };
 
   const getNodes = () => {
-    let nodes = props.entityTypes && props.entityTypes?.map((e) => {
-      const node = new NodeSvg(e.entityName, getColor(e.entityName), getNumInstances(e.entityName), getIcon(e.entityName));
-      return {
-        id: e.entityName,
-        label: "",
-        title: e.model.definitions[e.entityName].description ? e.model.definitions[e.entityName].description : "Description is not available for the entity",
-        image: "data:image/svg+xml;charset=utf-8," + node.getSvg(),
-        shape: "image"
-      };
-    });
+    let nodes;
+    if (graphType === "image") {
+      nodes = props.entityTypes && props.entityTypes?.map((e) => {
+        const node = new NodeSvg(e.entityName, getColor(e.entityName), getNumInstances(e.entityName), getIcon(e.entityName));
+        return {
+          id: e.entityName,
+          label: "",
+          title: e.model.definitions[e.entityName].description ? e.model.definitions[e.entityName].description : "Description is not available for the entity",
+          image: "data:image/svg+xml;charset=utf-8," + node.getSvg(),
+          shape: "image",
+          chosen: function (values, id, selected, hovering) {
+            values.color = "#00ff00";
+            values.strokeWidth = 5;
+          }
+        };
+      });
+    } else if (graphType === "shape") {
+      nodes = props.entityTypes && props.entityTypes?.map((e) => {
+        return {
+          ...defaultNodeProps,
+          id: e.entityName,
+          label: e.entityName.concat("\n<b>", getNumInstances(e.entityName), "</b>"),
+          title: e.entityName + " tooltip text",
+          color: getColor(e.entityName),
+          hidden: false
+        }
+      });
+    }
     return nodes;
   };
 
@@ -195,11 +255,33 @@ const GraphVis: React.FC<Props> = (props) => {
   };
 
   const events = {
-    select: (event) => {
+    /* "oncontext" may not include node that was clicked so we have check it in "click"
+     * to accurately open the context menu when a node is right-clicked. "click" fires 
+     * AFTER "oncontext" so we can check an oncontext flag and the node array.
+     *
+     */
+    click: (event) => {
+      console.log("click", event);
       let {nodes, edges} = event;
-      console.log("select", nodes, event);
+      // Was iit originally an oncontext click and was it on a node?
+      if (contextClick && nodes.length > 0) {
+        setContextMenuVisible(true);
+      } else {
+        setContextMenuVisible(false);
+      }
+      setContextClick(false); // reset flag
+    },
+    select: (event) => {
+      console.log("select", event);
+      let {nodes, edges} = event;
       if (nodes.length > 0) {
         props.handleEntitySelection(nodes[0]);
+        // console.log("Node: ", nodes[0], "event x: ", event.event.center.x, "event y: ", event.event.center.y);
+        // let positions = network.getPositions(nodes[0]);
+        // console.log("node x: ", positions[nodes[0]].x, "node y: ", positions[nodes[0]].y);
+        // console.log("canvas x: ", event.pointer.canvas.x, "canvas y: ", event.pointer.canvas.y);
+        // console.log(network);
+        // console.log(event);
       }
     },
     dragStart: (event) => {
@@ -212,36 +294,63 @@ const GraphVis: React.FC<Props> = (props) => {
       setNodePositions({[event.nodes[0]]: event.pointer.canvas});
     },
     hoverNode: (event) => {
-      console.log("on hover node", event);
+      //console.log("on hover node", event, document);
       event.event.target.style.cursor = "pointer";
       setHoveringNode(event.node);
     },
     blurNode: (event) => {
-      console.log("on blur node", event);
+      //console.log("on blur node", event);
       event.event.target.style.cursor = "";
       setHoveringNode(undefined);
     },
     hoverEdge: (event) => {
-      console.log("on hover edge", event.event.target.style.cursor);
+      //console.log("on hover edge", event.event.target.style.cursor);
       event.event.target.style.cursor = "pointer";
     },
     blurEdge: (event) => {
-      console.log("on blur edge", event);
+      //console.log("on blur edge", event);
       event.event.target.style.cursor = "";
     },
     doubleClick: (event) => {
       console.log("doubleClick", event);
+    },
+    oncontext: (event) => {
+      console.log("oncontext", event);
+      event.event.preventDefault(); // don't display regular context menu
+      setContextClick(true);
     }
   };
 
+  const menuClick = (event) => {
+    console.log("menuClick", event);
+    // TODO do something useful
+    setContextMenuVisible(false);
+  };
+
+  const menu = (
+    <Menu onClick={menuClick}>
+      <Menu.Item key="1">1st menu item</Menu.Item>
+      <Menu.Item key="2">2nd menu item</Menu.Item>
+      <Menu.Item key="3">3rd menu item</Menu.Item>
+    </Menu>
+  );
+
   return (
     <div id="graphVis">
-      <Graph
-        graph={graphData}
-        options={options}
-        events={events}
-        getNetwork={initNetworkInstance}
-      />
+      <Dropdown 
+        overlay={menu} 
+        trigger={['contextMenu']}
+        visible={contextMenuVisible}
+      >
+        <div>
+          <Graph
+            graph={graphData}
+            options={options}
+            events={events}
+            getNetwork={initNetworkInstance}
+          />
+        </div>
+      </Dropdown>
     </div>
   );
 };
