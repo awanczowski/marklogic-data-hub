@@ -1,4 +1,5 @@
 import React, {useState, useEffect, useLayoutEffect, useRef} from "react";
+import {Link} from "react-router-dom";
 import Graph from "react-graph-vis";
 import "./graph-vis.scss";
 import ReactDOMServer from "react-dom/server";
@@ -42,20 +43,23 @@ const defaultNodeProps: any = {
 const GraphVis: React.FC<Props> = (props) => {
 
   const graphRef = useRef(null);
-  //let graphType = "shape";
-  let graphType = "image";
+  let graphType = "shape";
+  //let graphType = "image";
 
-  let emptyDataSet = new DataSet();
+  let emptyNodes = new DataSet();
+  let emptyEdges = new DataSet();
 
   const [nodePositions, setNodePositions] = useState({});
   const [physicsEnabled, setPhysicsEnabled] = useState(true);
-  //const [graphData, setGraphData] = useState({nodes: emptyDataSet, edges: emptyDataSet});
-  const [graphData, setGraphData] = useState({nodes: emptyDataSet, edges: emptyDataSet});
+  //const [graphData, setGraphData] = useState({nodes: [], edges: []});
+  const [graphData, setGraphData] = useState({nodes: emptyNodes, edges: emptyEdges});
   const [testingMode, setTestingMode] = useState(true); // Should be used further to handle testing only in non-production environment
   
   const [contextMenuVisible, setContextMenuVisible] = useState(false);
   const [contextMenuChanged, setContextMenuChanged] = useState(false);
   const [contextClick, setContextClick] = useState(false);
+
+  const [clickedNode, setClickedNode] = useState("");
 
   //Initializing network instance
   const [network, setNetwork] = useState<any>(null);
@@ -74,7 +78,19 @@ const GraphVis: React.FC<Props> = (props) => {
       nodes: getNodes(),
       edges: getEdges()
     });
-  }, [props.entityTypes, hoveringNode]);
+    // let items = emptyDataSet.get();
+    // console.log("emptyDataSet", items);
+  }, [props.entityTypes]);
+
+  // useEffect(() => {
+  //   // TODO use DataSet to performantly manage changes to graph data (don't rerender everything on change)
+  //   let nodes = new DataSet(getNodes());
+  //   setGraphData({
+  //     //nodes: nodes,
+  //     nodes: getNodes(),
+  //     edges: getEdges()
+  //   });
+  // }, [hoveringNode]);
 
   useLayoutEffect(() => {
     if (testingMode && network) {
@@ -190,7 +206,13 @@ const GraphVis: React.FC<Props> = (props) => {
           id: e.entityName,
           label: e.entityName.concat("\n<b>", getNumInstances(e.entityName), "</b>"),
           title: e.entityName + " tooltip text",
-          color: getColor(e.entityName),
+          color: {
+            background: getColor(e.entityName),
+            hover: {
+              background: hoverColor,
+              border: "red"
+            }
+          },
           hidden: false
         }
       });
@@ -262,9 +284,11 @@ const GraphVis: React.FC<Props> = (props) => {
      */
     click: (event) => {
       console.log("click", event);
+      console.log("click nodes", network);
       let {nodes, edges} = event;
       // Was iit originally an oncontext click and was it on a node?
       if (contextClick && nodes.length > 0) {
+        setClickedNode(nodes[0])
         setContextMenuVisible(true);
       } else {
         setContextMenuVisible(false);
@@ -296,12 +320,12 @@ const GraphVis: React.FC<Props> = (props) => {
     hoverNode: (event) => {
       //console.log("on hover node", event, document);
       event.event.target.style.cursor = "pointer";
-      setHoveringNode(event.node);
+      //setHoveringNode(event.node);
     },
     blurNode: (event) => {
       //console.log("on blur node", event);
       event.event.target.style.cursor = "";
-      setHoveringNode(undefined);
+      //setHoveringNode(undefined);
     },
     hoverEdge: (event) => {
       //console.log("on hover edge", event.event.target.style.cursor);
@@ -327,13 +351,25 @@ const GraphVis: React.FC<Props> = (props) => {
     setContextMenuVisible(false);
   };
 
-  const menu = (
+  const menu = () => {
+    console.log("clickedNode", clickedNode);
+    return (
+    // <Menu onClick={menuClick}>
     <Menu onClick={menuClick}>
-      <Menu.Item key="1">1st menu item</Menu.Item>
+      <Menu.Item key="1">
+        <Link
+          to={{
+            pathname: "/tiles/explore",
+            state: {entity: clickedNode}
+          }}
+        >
+         {123}
+        </Link>
+      </Menu.Item>
       <Menu.Item key="2">2nd menu item</Menu.Item>
       <Menu.Item key="3">3rd menu item</Menu.Item>
     </Menu>
-  );
+  )};
 
   return (
     <div id="graphVis">
