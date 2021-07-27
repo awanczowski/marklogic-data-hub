@@ -1,0 +1,4479 @@
+[
+    {
+     "entityName": "root",
+     "entityTypeId": "http://marklogic.com/example/root-0.0.1/root",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root": {
+        "primaryKey": "root",
+        "properties": {
+         "root": {
+          "datatype": "integer"
+         },
+         "root-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0.0.1/root-0",
+          "joinPropertyName": "root-0"
+         },
+         "root-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0.0.1/root-1",
+          "joinPropertyName": "root-1"
+         },
+         "root-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0.0.1/root-2",
+          "joinPropertyName": "root-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0.0.1/root-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0": {
+        "primaryKey": "root-0",
+        "properties": {
+         "root-0": {
+          "datatype": "integer"
+         },
+         "root-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0.0.1/root-0-0",
+          "joinPropertyName": "root-0-0"
+         },
+         "root-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0.0.1/root-0-1",
+          "joinPropertyName": "root-0-1"
+         },
+         "root-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0.0.1/root-0-2",
+          "joinPropertyName": "root-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-0.0.1/root-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0": {
+        "primaryKey": "root-0-0",
+        "properties": {
+         "root-0-0": {
+          "datatype": "integer"
+         },
+         "root-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-0.0.1/root-0-0-0",
+          "joinPropertyName": "root-0-0-0"
+         },
+         "root-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-0.0.1/root-0-0-1",
+          "joinPropertyName": "root-0-0-1"
+         },
+         "root-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-0.0.1/root-0-0-2",
+          "joinPropertyName": "root-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-0-0.0.1/root-0-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-0": {
+        "primaryKey": "root-0-0-0",
+        "properties": {
+         "root-0-0-0": {
+          "datatype": "integer"
+         },
+         "root-0-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-0-0.0.1/root-0-0-0-0",
+          "joinPropertyName": "root-0-0-0-0"
+         },
+         "root-0-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-1-0.0.1/root-0-0-0-1",
+          "joinPropertyName": "root-0-0-0-1"
+         },
+         "root-0-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-2-0.0.1/root-0-0-0-2",
+          "joinPropertyName": "root-0-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-0-0-0.0.1/root-0-0-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-0-0": {
+        "primaryKey": "root-0-0-0-0",
+        "properties": {
+         "root-0-0-0-0": {
+          "datatype": "integer"
+         },
+         "root-0-0-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-0-0-0.0.1/root-0-0-0-0-0",
+          "joinPropertyName": "root-0-0-0-0-0"
+         },
+         "root-0-0-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-0-1-0.0.1/root-0-0-0-0-1",
+          "joinPropertyName": "root-0-0-0-0-1"
+         },
+         "root-0-0-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-0-2-0.0.1/root-0-0-0-0-2",
+          "joinPropertyName": "root-0-0-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-0-1-0.0.1/root-0-0-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-0-1": {
+        "primaryKey": "root-0-0-0-1",
+        "properties": {
+         "root-0-0-0-1": {
+          "datatype": "integer"
+         },
+         "root-0-0-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-1-0-0.0.1/root-0-0-0-1-0",
+          "joinPropertyName": "root-0-0-0-1-0"
+         },
+         "root-0-0-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-1-1-0.0.1/root-0-0-0-1-1",
+          "joinPropertyName": "root-0-0-0-1-1"
+         },
+         "root-0-0-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-1-2-0.0.1/root-0-0-0-1-2",
+          "joinPropertyName": "root-0-0-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-0-2-0.0.1/root-0-0-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-0-2": {
+        "primaryKey": "root-0-0-0-2",
+        "properties": {
+         "root-0-0-0-2": {
+          "datatype": "integer"
+         },
+         "root-0-0-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-2-0-0.0.1/root-0-0-0-2-0",
+          "joinPropertyName": "root-0-0-0-2-0"
+         },
+         "root-0-0-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-2-1-0.0.1/root-0-0-0-2-1",
+          "joinPropertyName": "root-0-0-0-2-1"
+         },
+         "root-0-0-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-0-2-2-0.0.1/root-0-0-0-2-2",
+          "joinPropertyName": "root-0-0-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-1-0.0.1/root-0-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-1": {
+        "primaryKey": "root-0-0-1",
+        "properties": {
+         "root-0-0-1": {
+          "datatype": "integer"
+         },
+         "root-0-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-0-0.0.1/root-0-0-1-0",
+          "joinPropertyName": "root-0-0-1-0"
+         },
+         "root-0-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-1-0.0.1/root-0-0-1-1",
+          "joinPropertyName": "root-0-0-1-1"
+         },
+         "root-0-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-2-0.0.1/root-0-0-1-2",
+          "joinPropertyName": "root-0-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-1-0-0.0.1/root-0-0-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-1-0": {
+        "primaryKey": "root-0-0-1-0",
+        "properties": {
+         "root-0-0-1-0": {
+          "datatype": "integer"
+         },
+         "root-0-0-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-0-0-0.0.1/root-0-0-1-0-0",
+          "joinPropertyName": "root-0-0-1-0-0"
+         },
+         "root-0-0-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-0-1-0.0.1/root-0-0-1-0-1",
+          "joinPropertyName": "root-0-0-1-0-1"
+         },
+         "root-0-0-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-0-2-0.0.1/root-0-0-1-0-2",
+          "joinPropertyName": "root-0-0-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-1-1-0.0.1/root-0-0-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-1-1": {
+        "primaryKey": "root-0-0-1-1",
+        "properties": {
+         "root-0-0-1-1": {
+          "datatype": "integer"
+         },
+         "root-0-0-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-1-0-0.0.1/root-0-0-1-1-0",
+          "joinPropertyName": "root-0-0-1-1-0"
+         },
+         "root-0-0-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-1-1-0.0.1/root-0-0-1-1-1",
+          "joinPropertyName": "root-0-0-1-1-1"
+         },
+         "root-0-0-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-1-2-0.0.1/root-0-0-1-1-2",
+          "joinPropertyName": "root-0-0-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-1-2-0.0.1/root-0-0-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-1-2": {
+        "primaryKey": "root-0-0-1-2",
+        "properties": {
+         "root-0-0-1-2": {
+          "datatype": "integer"
+         },
+         "root-0-0-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-2-0-0.0.1/root-0-0-1-2-0",
+          "joinPropertyName": "root-0-0-1-2-0"
+         },
+         "root-0-0-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-2-1-0.0.1/root-0-0-1-2-1",
+          "joinPropertyName": "root-0-0-1-2-1"
+         },
+         "root-0-0-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-1-2-2-0.0.1/root-0-0-1-2-2",
+          "joinPropertyName": "root-0-0-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-2-0.0.1/root-0-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-2": {
+        "primaryKey": "root-0-0-2",
+        "properties": {
+         "root-0-0-2": {
+          "datatype": "integer"
+         },
+         "root-0-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-0-0.0.1/root-0-0-2-0",
+          "joinPropertyName": "root-0-0-2-0"
+         },
+         "root-0-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-1-0.0.1/root-0-0-2-1",
+          "joinPropertyName": "root-0-0-2-1"
+         },
+         "root-0-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-2-0.0.1/root-0-0-2-2",
+          "joinPropertyName": "root-0-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-2-0-0.0.1/root-0-0-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-2-0": {
+        "primaryKey": "root-0-0-2-0",
+        "properties": {
+         "root-0-0-2-0": {
+          "datatype": "integer"
+         },
+         "root-0-0-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-0-0-0.0.1/root-0-0-2-0-0",
+          "joinPropertyName": "root-0-0-2-0-0"
+         },
+         "root-0-0-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-0-1-0.0.1/root-0-0-2-0-1",
+          "joinPropertyName": "root-0-0-2-0-1"
+         },
+         "root-0-0-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-0-2-0.0.1/root-0-0-2-0-2",
+          "joinPropertyName": "root-0-0-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-2-1-0.0.1/root-0-0-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-2-1": {
+        "primaryKey": "root-0-0-2-1",
+        "properties": {
+         "root-0-0-2-1": {
+          "datatype": "integer"
+         },
+         "root-0-0-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-1-0-0.0.1/root-0-0-2-1-0",
+          "joinPropertyName": "root-0-0-2-1-0"
+         },
+         "root-0-0-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-1-1-0.0.1/root-0-0-2-1-1",
+          "joinPropertyName": "root-0-0-2-1-1"
+         },
+         "root-0-0-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-1-2-0.0.1/root-0-0-2-1-2",
+          "joinPropertyName": "root-0-0-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-0-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-0-2-2-0.0.1/root-0-0-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-0-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-0-2-2": {
+        "primaryKey": "root-0-0-2-2",
+        "properties": {
+         "root-0-0-2-2": {
+          "datatype": "integer"
+         },
+         "root-0-0-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-2-0-0.0.1/root-0-0-2-2-0",
+          "joinPropertyName": "root-0-0-2-2-0"
+         },
+         "root-0-0-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-2-1-0.0.1/root-0-0-2-2-1",
+          "joinPropertyName": "root-0-0-2-2-1"
+         },
+         "root-0-0-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-0-2-2-2-0.0.1/root-0-0-2-2-2",
+          "joinPropertyName": "root-0-0-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-0.0.1/root-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1": {
+        "primaryKey": "root-0-1",
+        "properties": {
+         "root-0-1": {
+          "datatype": "integer"
+         },
+         "root-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-0.0.1/root-0-1-0",
+          "joinPropertyName": "root-0-1-0"
+         },
+         "root-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-0.0.1/root-0-1-1",
+          "joinPropertyName": "root-0-1-1"
+         },
+         "root-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-0.0.1/root-0-1-2",
+          "joinPropertyName": "root-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-0-0.0.1/root-0-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-0": {
+        "primaryKey": "root-0-1-0",
+        "properties": {
+         "root-0-1-0": {
+          "datatype": "integer"
+         },
+         "root-0-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-0-0.0.1/root-0-1-0-0",
+          "joinPropertyName": "root-0-1-0-0"
+         },
+         "root-0-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-1-0.0.1/root-0-1-0-1",
+          "joinPropertyName": "root-0-1-0-1"
+         },
+         "root-0-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-2-0.0.1/root-0-1-0-2",
+          "joinPropertyName": "root-0-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-0-0-0.0.1/root-0-1-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-0-0": {
+        "primaryKey": "root-0-1-0-0",
+        "properties": {
+         "root-0-1-0-0": {
+          "datatype": "integer"
+         },
+         "root-0-1-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-0-0-0.0.1/root-0-1-0-0-0",
+          "joinPropertyName": "root-0-1-0-0-0"
+         },
+         "root-0-1-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-0-1-0.0.1/root-0-1-0-0-1",
+          "joinPropertyName": "root-0-1-0-0-1"
+         },
+         "root-0-1-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-0-2-0.0.1/root-0-1-0-0-2",
+          "joinPropertyName": "root-0-1-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-0-1-0.0.1/root-0-1-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-0-1": {
+        "primaryKey": "root-0-1-0-1",
+        "properties": {
+         "root-0-1-0-1": {
+          "datatype": "integer"
+         },
+         "root-0-1-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-1-0-0.0.1/root-0-1-0-1-0",
+          "joinPropertyName": "root-0-1-0-1-0"
+         },
+         "root-0-1-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-1-1-0.0.1/root-0-1-0-1-1",
+          "joinPropertyName": "root-0-1-0-1-1"
+         },
+         "root-0-1-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-1-2-0.0.1/root-0-1-0-1-2",
+          "joinPropertyName": "root-0-1-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-0-2-0.0.1/root-0-1-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-0-2": {
+        "primaryKey": "root-0-1-0-2",
+        "properties": {
+         "root-0-1-0-2": {
+          "datatype": "integer"
+         },
+         "root-0-1-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-2-0-0.0.1/root-0-1-0-2-0",
+          "joinPropertyName": "root-0-1-0-2-0"
+         },
+         "root-0-1-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-2-1-0.0.1/root-0-1-0-2-1",
+          "joinPropertyName": "root-0-1-0-2-1"
+         },
+         "root-0-1-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-0-2-2-0.0.1/root-0-1-0-2-2",
+          "joinPropertyName": "root-0-1-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-1-0.0.1/root-0-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-1": {
+        "primaryKey": "root-0-1-1",
+        "properties": {
+         "root-0-1-1": {
+          "datatype": "integer"
+         },
+         "root-0-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-0-0.0.1/root-0-1-1-0",
+          "joinPropertyName": "root-0-1-1-0"
+         },
+         "root-0-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-1-0.0.1/root-0-1-1-1",
+          "joinPropertyName": "root-0-1-1-1"
+         },
+         "root-0-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-2-0.0.1/root-0-1-1-2",
+          "joinPropertyName": "root-0-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-1-0-0.0.1/root-0-1-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-1-0": {
+        "primaryKey": "root-0-1-1-0",
+        "properties": {
+         "root-0-1-1-0": {
+          "datatype": "integer"
+         },
+         "root-0-1-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-0-0-0.0.1/root-0-1-1-0-0",
+          "joinPropertyName": "root-0-1-1-0-0"
+         },
+         "root-0-1-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-0-1-0.0.1/root-0-1-1-0-1",
+          "joinPropertyName": "root-0-1-1-0-1"
+         },
+         "root-0-1-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-0-2-0.0.1/root-0-1-1-0-2",
+          "joinPropertyName": "root-0-1-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-1-1-0.0.1/root-0-1-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-1-1": {
+        "primaryKey": "root-0-1-1-1",
+        "properties": {
+         "root-0-1-1-1": {
+          "datatype": "integer"
+         },
+         "root-0-1-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-1-0-0.0.1/root-0-1-1-1-0",
+          "joinPropertyName": "root-0-1-1-1-0"
+         },
+         "root-0-1-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-1-1-0.0.1/root-0-1-1-1-1",
+          "joinPropertyName": "root-0-1-1-1-1"
+         },
+         "root-0-1-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-1-2-0.0.1/root-0-1-1-1-2",
+          "joinPropertyName": "root-0-1-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-1-2-0.0.1/root-0-1-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-1-2": {
+        "primaryKey": "root-0-1-1-2",
+        "properties": {
+         "root-0-1-1-2": {
+          "datatype": "integer"
+         },
+         "root-0-1-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-2-0-0.0.1/root-0-1-1-2-0",
+          "joinPropertyName": "root-0-1-1-2-0"
+         },
+         "root-0-1-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-2-1-0.0.1/root-0-1-1-2-1",
+          "joinPropertyName": "root-0-1-1-2-1"
+         },
+         "root-0-1-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-1-2-2-0.0.1/root-0-1-1-2-2",
+          "joinPropertyName": "root-0-1-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-2-0.0.1/root-0-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-2": {
+        "primaryKey": "root-0-1-2",
+        "properties": {
+         "root-0-1-2": {
+          "datatype": "integer"
+         },
+         "root-0-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-0-0.0.1/root-0-1-2-0",
+          "joinPropertyName": "root-0-1-2-0"
+         },
+         "root-0-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-1-0.0.1/root-0-1-2-1",
+          "joinPropertyName": "root-0-1-2-1"
+         },
+         "root-0-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-2-0.0.1/root-0-1-2-2",
+          "joinPropertyName": "root-0-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-2-0-0.0.1/root-0-1-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-2-0": {
+        "primaryKey": "root-0-1-2-0",
+        "properties": {
+         "root-0-1-2-0": {
+          "datatype": "integer"
+         },
+         "root-0-1-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-0-0-0.0.1/root-0-1-2-0-0",
+          "joinPropertyName": "root-0-1-2-0-0"
+         },
+         "root-0-1-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-0-1-0.0.1/root-0-1-2-0-1",
+          "joinPropertyName": "root-0-1-2-0-1"
+         },
+         "root-0-1-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-0-2-0.0.1/root-0-1-2-0-2",
+          "joinPropertyName": "root-0-1-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-2-1-0.0.1/root-0-1-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-2-1": {
+        "primaryKey": "root-0-1-2-1",
+        "properties": {
+         "root-0-1-2-1": {
+          "datatype": "integer"
+         },
+         "root-0-1-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-1-0-0.0.1/root-0-1-2-1-0",
+          "joinPropertyName": "root-0-1-2-1-0"
+         },
+         "root-0-1-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-1-1-0.0.1/root-0-1-2-1-1",
+          "joinPropertyName": "root-0-1-2-1-1"
+         },
+         "root-0-1-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-1-2-0.0.1/root-0-1-2-1-2",
+          "joinPropertyName": "root-0-1-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-1-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-1-2-2-0.0.1/root-0-1-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-1-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-1-2-2": {
+        "primaryKey": "root-0-1-2-2",
+        "properties": {
+         "root-0-1-2-2": {
+          "datatype": "integer"
+         },
+         "root-0-1-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-2-0-0.0.1/root-0-1-2-2-0",
+          "joinPropertyName": "root-0-1-2-2-0"
+         },
+         "root-0-1-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-2-1-0.0.1/root-0-1-2-2-1",
+          "joinPropertyName": "root-0-1-2-2-1"
+         },
+         "root-0-1-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-1-2-2-2-0.0.1/root-0-1-2-2-2",
+          "joinPropertyName": "root-0-1-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-0.0.1/root-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2": {
+        "primaryKey": "root-0-2",
+        "properties": {
+         "root-0-2": {
+          "datatype": "integer"
+         },
+         "root-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-0.0.1/root-0-2-0",
+          "joinPropertyName": "root-0-2-0"
+         },
+         "root-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-0.0.1/root-0-2-1",
+          "joinPropertyName": "root-0-2-1"
+         },
+         "root-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-0.0.1/root-0-2-2",
+          "joinPropertyName": "root-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-0-0.0.1/root-0-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-0": {
+        "primaryKey": "root-0-2-0",
+        "properties": {
+         "root-0-2-0": {
+          "datatype": "integer"
+         },
+         "root-0-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-0-0.0.1/root-0-2-0-0",
+          "joinPropertyName": "root-0-2-0-0"
+         },
+         "root-0-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-1-0.0.1/root-0-2-0-1",
+          "joinPropertyName": "root-0-2-0-1"
+         },
+         "root-0-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-2-0.0.1/root-0-2-0-2",
+          "joinPropertyName": "root-0-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-0-0-0.0.1/root-0-2-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-0-0": {
+        "primaryKey": "root-0-2-0-0",
+        "properties": {
+         "root-0-2-0-0": {
+          "datatype": "integer"
+         },
+         "root-0-2-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-0-0-0.0.1/root-0-2-0-0-0",
+          "joinPropertyName": "root-0-2-0-0-0"
+         },
+         "root-0-2-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-0-1-0.0.1/root-0-2-0-0-1",
+          "joinPropertyName": "root-0-2-0-0-1"
+         },
+         "root-0-2-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-0-2-0.0.1/root-0-2-0-0-2",
+          "joinPropertyName": "root-0-2-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-0-1-0.0.1/root-0-2-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-0-1": {
+        "primaryKey": "root-0-2-0-1",
+        "properties": {
+         "root-0-2-0-1": {
+          "datatype": "integer"
+         },
+         "root-0-2-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-1-0-0.0.1/root-0-2-0-1-0",
+          "joinPropertyName": "root-0-2-0-1-0"
+         },
+         "root-0-2-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-1-1-0.0.1/root-0-2-0-1-1",
+          "joinPropertyName": "root-0-2-0-1-1"
+         },
+         "root-0-2-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-1-2-0.0.1/root-0-2-0-1-2",
+          "joinPropertyName": "root-0-2-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-0-2-0.0.1/root-0-2-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-0-2": {
+        "primaryKey": "root-0-2-0-2",
+        "properties": {
+         "root-0-2-0-2": {
+          "datatype": "integer"
+         },
+         "root-0-2-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-2-0-0.0.1/root-0-2-0-2-0",
+          "joinPropertyName": "root-0-2-0-2-0"
+         },
+         "root-0-2-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-2-1-0.0.1/root-0-2-0-2-1",
+          "joinPropertyName": "root-0-2-0-2-1"
+         },
+         "root-0-2-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-0-2-2-0.0.1/root-0-2-0-2-2",
+          "joinPropertyName": "root-0-2-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-1-0.0.1/root-0-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-1": {
+        "primaryKey": "root-0-2-1",
+        "properties": {
+         "root-0-2-1": {
+          "datatype": "integer"
+         },
+         "root-0-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-0-0.0.1/root-0-2-1-0",
+          "joinPropertyName": "root-0-2-1-0"
+         },
+         "root-0-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-1-0.0.1/root-0-2-1-1",
+          "joinPropertyName": "root-0-2-1-1"
+         },
+         "root-0-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-2-0.0.1/root-0-2-1-2",
+          "joinPropertyName": "root-0-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-1-0-0.0.1/root-0-2-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-1-0": {
+        "primaryKey": "root-0-2-1-0",
+        "properties": {
+         "root-0-2-1-0": {
+          "datatype": "integer"
+         },
+         "root-0-2-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-0-0-0.0.1/root-0-2-1-0-0",
+          "joinPropertyName": "root-0-2-1-0-0"
+         },
+         "root-0-2-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-0-1-0.0.1/root-0-2-1-0-1",
+          "joinPropertyName": "root-0-2-1-0-1"
+         },
+         "root-0-2-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-0-2-0.0.1/root-0-2-1-0-2",
+          "joinPropertyName": "root-0-2-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-1-1-0.0.1/root-0-2-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-1-1": {
+        "primaryKey": "root-0-2-1-1",
+        "properties": {
+         "root-0-2-1-1": {
+          "datatype": "integer"
+         },
+         "root-0-2-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-1-0-0.0.1/root-0-2-1-1-0",
+          "joinPropertyName": "root-0-2-1-1-0"
+         },
+         "root-0-2-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-1-1-0.0.1/root-0-2-1-1-1",
+          "joinPropertyName": "root-0-2-1-1-1"
+         },
+         "root-0-2-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-1-2-0.0.1/root-0-2-1-1-2",
+          "joinPropertyName": "root-0-2-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-1-2-0.0.1/root-0-2-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-1-2": {
+        "primaryKey": "root-0-2-1-2",
+        "properties": {
+         "root-0-2-1-2": {
+          "datatype": "integer"
+         },
+         "root-0-2-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-2-0-0.0.1/root-0-2-1-2-0",
+          "joinPropertyName": "root-0-2-1-2-0"
+         },
+         "root-0-2-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-2-1-0.0.1/root-0-2-1-2-1",
+          "joinPropertyName": "root-0-2-1-2-1"
+         },
+         "root-0-2-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-1-2-2-0.0.1/root-0-2-1-2-2",
+          "joinPropertyName": "root-0-2-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-2-0.0.1/root-0-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-2": {
+        "primaryKey": "root-0-2-2",
+        "properties": {
+         "root-0-2-2": {
+          "datatype": "integer"
+         },
+         "root-0-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-0-0.0.1/root-0-2-2-0",
+          "joinPropertyName": "root-0-2-2-0"
+         },
+         "root-0-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-1-0.0.1/root-0-2-2-1",
+          "joinPropertyName": "root-0-2-2-1"
+         },
+         "root-0-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-2-0.0.1/root-0-2-2-2",
+          "joinPropertyName": "root-0-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-2-0-0.0.1/root-0-2-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-2-0": {
+        "primaryKey": "root-0-2-2-0",
+        "properties": {
+         "root-0-2-2-0": {
+          "datatype": "integer"
+         },
+         "root-0-2-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-0-0-0.0.1/root-0-2-2-0-0",
+          "joinPropertyName": "root-0-2-2-0-0"
+         },
+         "root-0-2-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-0-1-0.0.1/root-0-2-2-0-1",
+          "joinPropertyName": "root-0-2-2-0-1"
+         },
+         "root-0-2-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-0-2-0.0.1/root-0-2-2-0-2",
+          "joinPropertyName": "root-0-2-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-2-1-0.0.1/root-0-2-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-2-1": {
+        "primaryKey": "root-0-2-2-1",
+        "properties": {
+         "root-0-2-2-1": {
+          "datatype": "integer"
+         },
+         "root-0-2-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-1-0-0.0.1/root-0-2-2-1-0",
+          "joinPropertyName": "root-0-2-2-1-0"
+         },
+         "root-0-2-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-1-1-0.0.1/root-0-2-2-1-1",
+          "joinPropertyName": "root-0-2-2-1-1"
+         },
+         "root-0-2-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-1-2-0.0.1/root-0-2-2-1-2",
+          "joinPropertyName": "root-0-2-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-0-2-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-0-2-2-2-0.0.1/root-0-2-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-0-2-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-0-2-2-2": {
+        "primaryKey": "root-0-2-2-2",
+        "properties": {
+         "root-0-2-2-2": {
+          "datatype": "integer"
+         },
+         "root-0-2-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-2-0-0.0.1/root-0-2-2-2-0",
+          "joinPropertyName": "root-0-2-2-2-0"
+         },
+         "root-0-2-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-2-1-0.0.1/root-0-2-2-2-1",
+          "joinPropertyName": "root-0-2-2-2-1"
+         },
+         "root-0-2-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-0-2-2-2-2-0.0.1/root-0-2-2-2-2",
+          "joinPropertyName": "root-0-2-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-0.0.1/root-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1": {
+        "primaryKey": "root-1",
+        "properties": {
+         "root-1": {
+          "datatype": "integer"
+         },
+         "root-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0.0.1/root-1-0",
+          "joinPropertyName": "root-1-0"
+         },
+         "root-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0.0.1/root-1-1",
+          "joinPropertyName": "root-1-1"
+         },
+         "root-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0.0.1/root-1-2",
+          "joinPropertyName": "root-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-0.0.1/root-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0": {
+        "primaryKey": "root-1-0",
+        "properties": {
+         "root-1-0": {
+          "datatype": "integer"
+         },
+         "root-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-0.0.1/root-1-0-0",
+          "joinPropertyName": "root-1-0-0"
+         },
+         "root-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-0.0.1/root-1-0-1",
+          "joinPropertyName": "root-1-0-1"
+         },
+         "root-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-0.0.1/root-1-0-2",
+          "joinPropertyName": "root-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-0-0.0.1/root-1-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-0": {
+        "primaryKey": "root-1-0-0",
+        "properties": {
+         "root-1-0-0": {
+          "datatype": "integer"
+         },
+         "root-1-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-0-0.0.1/root-1-0-0-0",
+          "joinPropertyName": "root-1-0-0-0"
+         },
+         "root-1-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-1-0.0.1/root-1-0-0-1",
+          "joinPropertyName": "root-1-0-0-1"
+         },
+         "root-1-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-2-0.0.1/root-1-0-0-2",
+          "joinPropertyName": "root-1-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-0-0-0.0.1/root-1-0-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-0-0": {
+        "primaryKey": "root-1-0-0-0",
+        "properties": {
+         "root-1-0-0-0": {
+          "datatype": "integer"
+         },
+         "root-1-0-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-0-0-0.0.1/root-1-0-0-0-0",
+          "joinPropertyName": "root-1-0-0-0-0"
+         },
+         "root-1-0-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-0-1-0.0.1/root-1-0-0-0-1",
+          "joinPropertyName": "root-1-0-0-0-1"
+         },
+         "root-1-0-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-0-2-0.0.1/root-1-0-0-0-2",
+          "joinPropertyName": "root-1-0-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-0-1-0.0.1/root-1-0-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-0-1": {
+        "primaryKey": "root-1-0-0-1",
+        "properties": {
+         "root-1-0-0-1": {
+          "datatype": "integer"
+         },
+         "root-1-0-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-1-0-0.0.1/root-1-0-0-1-0",
+          "joinPropertyName": "root-1-0-0-1-0"
+         },
+         "root-1-0-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-1-1-0.0.1/root-1-0-0-1-1",
+          "joinPropertyName": "root-1-0-0-1-1"
+         },
+         "root-1-0-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-1-2-0.0.1/root-1-0-0-1-2",
+          "joinPropertyName": "root-1-0-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-0-2-0.0.1/root-1-0-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-0-2": {
+        "primaryKey": "root-1-0-0-2",
+        "properties": {
+         "root-1-0-0-2": {
+          "datatype": "integer"
+         },
+         "root-1-0-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-2-0-0.0.1/root-1-0-0-2-0",
+          "joinPropertyName": "root-1-0-0-2-0"
+         },
+         "root-1-0-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-2-1-0.0.1/root-1-0-0-2-1",
+          "joinPropertyName": "root-1-0-0-2-1"
+         },
+         "root-1-0-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-0-2-2-0.0.1/root-1-0-0-2-2",
+          "joinPropertyName": "root-1-0-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-1-0.0.1/root-1-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-1": {
+        "primaryKey": "root-1-0-1",
+        "properties": {
+         "root-1-0-1": {
+          "datatype": "integer"
+         },
+         "root-1-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-0-0.0.1/root-1-0-1-0",
+          "joinPropertyName": "root-1-0-1-0"
+         },
+         "root-1-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-1-0.0.1/root-1-0-1-1",
+          "joinPropertyName": "root-1-0-1-1"
+         },
+         "root-1-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-2-0.0.1/root-1-0-1-2",
+          "joinPropertyName": "root-1-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-1-0-0.0.1/root-1-0-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-1-0": {
+        "primaryKey": "root-1-0-1-0",
+        "properties": {
+         "root-1-0-1-0": {
+          "datatype": "integer"
+         },
+         "root-1-0-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-0-0-0.0.1/root-1-0-1-0-0",
+          "joinPropertyName": "root-1-0-1-0-0"
+         },
+         "root-1-0-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-0-1-0.0.1/root-1-0-1-0-1",
+          "joinPropertyName": "root-1-0-1-0-1"
+         },
+         "root-1-0-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-0-2-0.0.1/root-1-0-1-0-2",
+          "joinPropertyName": "root-1-0-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-1-1-0.0.1/root-1-0-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-1-1": {
+        "primaryKey": "root-1-0-1-1",
+        "properties": {
+         "root-1-0-1-1": {
+          "datatype": "integer"
+         },
+         "root-1-0-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-1-0-0.0.1/root-1-0-1-1-0",
+          "joinPropertyName": "root-1-0-1-1-0"
+         },
+         "root-1-0-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-1-1-0.0.1/root-1-0-1-1-1",
+          "joinPropertyName": "root-1-0-1-1-1"
+         },
+         "root-1-0-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-1-2-0.0.1/root-1-0-1-1-2",
+          "joinPropertyName": "root-1-0-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-1-2-0.0.1/root-1-0-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-1-2": {
+        "primaryKey": "root-1-0-1-2",
+        "properties": {
+         "root-1-0-1-2": {
+          "datatype": "integer"
+         },
+         "root-1-0-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-2-0-0.0.1/root-1-0-1-2-0",
+          "joinPropertyName": "root-1-0-1-2-0"
+         },
+         "root-1-0-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-2-1-0.0.1/root-1-0-1-2-1",
+          "joinPropertyName": "root-1-0-1-2-1"
+         },
+         "root-1-0-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-1-2-2-0.0.1/root-1-0-1-2-2",
+          "joinPropertyName": "root-1-0-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-2-0.0.1/root-1-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-2": {
+        "primaryKey": "root-1-0-2",
+        "properties": {
+         "root-1-0-2": {
+          "datatype": "integer"
+         },
+         "root-1-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-0-0.0.1/root-1-0-2-0",
+          "joinPropertyName": "root-1-0-2-0"
+         },
+         "root-1-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-1-0.0.1/root-1-0-2-1",
+          "joinPropertyName": "root-1-0-2-1"
+         },
+         "root-1-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-2-0.0.1/root-1-0-2-2",
+          "joinPropertyName": "root-1-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-2-0-0.0.1/root-1-0-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-2-0": {
+        "primaryKey": "root-1-0-2-0",
+        "properties": {
+         "root-1-0-2-0": {
+          "datatype": "integer"
+         },
+         "root-1-0-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-0-0-0.0.1/root-1-0-2-0-0",
+          "joinPropertyName": "root-1-0-2-0-0"
+         },
+         "root-1-0-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-0-1-0.0.1/root-1-0-2-0-1",
+          "joinPropertyName": "root-1-0-2-0-1"
+         },
+         "root-1-0-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-0-2-0.0.1/root-1-0-2-0-2",
+          "joinPropertyName": "root-1-0-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-2-1-0.0.1/root-1-0-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-2-1": {
+        "primaryKey": "root-1-0-2-1",
+        "properties": {
+         "root-1-0-2-1": {
+          "datatype": "integer"
+         },
+         "root-1-0-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-1-0-0.0.1/root-1-0-2-1-0",
+          "joinPropertyName": "root-1-0-2-1-0"
+         },
+         "root-1-0-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-1-1-0.0.1/root-1-0-2-1-1",
+          "joinPropertyName": "root-1-0-2-1-1"
+         },
+         "root-1-0-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-1-2-0.0.1/root-1-0-2-1-2",
+          "joinPropertyName": "root-1-0-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-0-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-0-2-2-0.0.1/root-1-0-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-0-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-0-2-2": {
+        "primaryKey": "root-1-0-2-2",
+        "properties": {
+         "root-1-0-2-2": {
+          "datatype": "integer"
+         },
+         "root-1-0-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-2-0-0.0.1/root-1-0-2-2-0",
+          "joinPropertyName": "root-1-0-2-2-0"
+         },
+         "root-1-0-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-2-1-0.0.1/root-1-0-2-2-1",
+          "joinPropertyName": "root-1-0-2-2-1"
+         },
+         "root-1-0-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-0-2-2-2-0.0.1/root-1-0-2-2-2",
+          "joinPropertyName": "root-1-0-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-0.0.1/root-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1": {
+        "primaryKey": "root-1-1",
+        "properties": {
+         "root-1-1": {
+          "datatype": "integer"
+         },
+         "root-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-0.0.1/root-1-1-0",
+          "joinPropertyName": "root-1-1-0"
+         },
+         "root-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-0.0.1/root-1-1-1",
+          "joinPropertyName": "root-1-1-1"
+         },
+         "root-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-0.0.1/root-1-1-2",
+          "joinPropertyName": "root-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-0-0.0.1/root-1-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-0": {
+        "primaryKey": "root-1-1-0",
+        "properties": {
+         "root-1-1-0": {
+          "datatype": "integer"
+         },
+         "root-1-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-0-0.0.1/root-1-1-0-0",
+          "joinPropertyName": "root-1-1-0-0"
+         },
+         "root-1-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-1-0.0.1/root-1-1-0-1",
+          "joinPropertyName": "root-1-1-0-1"
+         },
+         "root-1-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-2-0.0.1/root-1-1-0-2",
+          "joinPropertyName": "root-1-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-0-0-0.0.1/root-1-1-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-0-0": {
+        "primaryKey": "root-1-1-0-0",
+        "properties": {
+         "root-1-1-0-0": {
+          "datatype": "integer"
+         },
+         "root-1-1-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-0-0-0.0.1/root-1-1-0-0-0",
+          "joinPropertyName": "root-1-1-0-0-0"
+         },
+         "root-1-1-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-0-1-0.0.1/root-1-1-0-0-1",
+          "joinPropertyName": "root-1-1-0-0-1"
+         },
+         "root-1-1-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-0-2-0.0.1/root-1-1-0-0-2",
+          "joinPropertyName": "root-1-1-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-0-1-0.0.1/root-1-1-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-0-1": {
+        "primaryKey": "root-1-1-0-1",
+        "properties": {
+         "root-1-1-0-1": {
+          "datatype": "integer"
+         },
+         "root-1-1-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-1-0-0.0.1/root-1-1-0-1-0",
+          "joinPropertyName": "root-1-1-0-1-0"
+         },
+         "root-1-1-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-1-1-0.0.1/root-1-1-0-1-1",
+          "joinPropertyName": "root-1-1-0-1-1"
+         },
+         "root-1-1-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-1-2-0.0.1/root-1-1-0-1-2",
+          "joinPropertyName": "root-1-1-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-0-2-0.0.1/root-1-1-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-0-2": {
+        "primaryKey": "root-1-1-0-2",
+        "properties": {
+         "root-1-1-0-2": {
+          "datatype": "integer"
+         },
+         "root-1-1-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-2-0-0.0.1/root-1-1-0-2-0",
+          "joinPropertyName": "root-1-1-0-2-0"
+         },
+         "root-1-1-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-2-1-0.0.1/root-1-1-0-2-1",
+          "joinPropertyName": "root-1-1-0-2-1"
+         },
+         "root-1-1-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-0-2-2-0.0.1/root-1-1-0-2-2",
+          "joinPropertyName": "root-1-1-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-1-0.0.1/root-1-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-1": {
+        "primaryKey": "root-1-1-1",
+        "properties": {
+         "root-1-1-1": {
+          "datatype": "integer"
+         },
+         "root-1-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-0-0.0.1/root-1-1-1-0",
+          "joinPropertyName": "root-1-1-1-0"
+         },
+         "root-1-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-1-0.0.1/root-1-1-1-1",
+          "joinPropertyName": "root-1-1-1-1"
+         },
+         "root-1-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-2-0.0.1/root-1-1-1-2",
+          "joinPropertyName": "root-1-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-1-0-0.0.1/root-1-1-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-1-0": {
+        "primaryKey": "root-1-1-1-0",
+        "properties": {
+         "root-1-1-1-0": {
+          "datatype": "integer"
+         },
+         "root-1-1-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-0-0-0.0.1/root-1-1-1-0-0",
+          "joinPropertyName": "root-1-1-1-0-0"
+         },
+         "root-1-1-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-0-1-0.0.1/root-1-1-1-0-1",
+          "joinPropertyName": "root-1-1-1-0-1"
+         },
+         "root-1-1-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-0-2-0.0.1/root-1-1-1-0-2",
+          "joinPropertyName": "root-1-1-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-1-1-0.0.1/root-1-1-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-1-1": {
+        "primaryKey": "root-1-1-1-1",
+        "properties": {
+         "root-1-1-1-1": {
+          "datatype": "integer"
+         },
+         "root-1-1-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-1-0-0.0.1/root-1-1-1-1-0",
+          "joinPropertyName": "root-1-1-1-1-0"
+         },
+         "root-1-1-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-1-1-0.0.1/root-1-1-1-1-1",
+          "joinPropertyName": "root-1-1-1-1-1"
+         },
+         "root-1-1-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-1-2-0.0.1/root-1-1-1-1-2",
+          "joinPropertyName": "root-1-1-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-1-2-0.0.1/root-1-1-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-1-2": {
+        "primaryKey": "root-1-1-1-2",
+        "properties": {
+         "root-1-1-1-2": {
+          "datatype": "integer"
+         },
+         "root-1-1-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-2-0-0.0.1/root-1-1-1-2-0",
+          "joinPropertyName": "root-1-1-1-2-0"
+         },
+         "root-1-1-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-2-1-0.0.1/root-1-1-1-2-1",
+          "joinPropertyName": "root-1-1-1-2-1"
+         },
+         "root-1-1-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-1-2-2-0.0.1/root-1-1-1-2-2",
+          "joinPropertyName": "root-1-1-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-2-0.0.1/root-1-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-2": {
+        "primaryKey": "root-1-1-2",
+        "properties": {
+         "root-1-1-2": {
+          "datatype": "integer"
+         },
+         "root-1-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-0-0.0.1/root-1-1-2-0",
+          "joinPropertyName": "root-1-1-2-0"
+         },
+         "root-1-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-1-0.0.1/root-1-1-2-1",
+          "joinPropertyName": "root-1-1-2-1"
+         },
+         "root-1-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-2-0.0.1/root-1-1-2-2",
+          "joinPropertyName": "root-1-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-2-0-0.0.1/root-1-1-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-2-0": {
+        "primaryKey": "root-1-1-2-0",
+        "properties": {
+         "root-1-1-2-0": {
+          "datatype": "integer"
+         },
+         "root-1-1-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-0-0-0.0.1/root-1-1-2-0-0",
+          "joinPropertyName": "root-1-1-2-0-0"
+         },
+         "root-1-1-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-0-1-0.0.1/root-1-1-2-0-1",
+          "joinPropertyName": "root-1-1-2-0-1"
+         },
+         "root-1-1-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-0-2-0.0.1/root-1-1-2-0-2",
+          "joinPropertyName": "root-1-1-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-2-1-0.0.1/root-1-1-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-2-1": {
+        "primaryKey": "root-1-1-2-1",
+        "properties": {
+         "root-1-1-2-1": {
+          "datatype": "integer"
+         },
+         "root-1-1-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-1-0-0.0.1/root-1-1-2-1-0",
+          "joinPropertyName": "root-1-1-2-1-0"
+         },
+         "root-1-1-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-1-1-0.0.1/root-1-1-2-1-1",
+          "joinPropertyName": "root-1-1-2-1-1"
+         },
+         "root-1-1-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-1-2-0.0.1/root-1-1-2-1-2",
+          "joinPropertyName": "root-1-1-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-1-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-1-2-2-0.0.1/root-1-1-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-1-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-1-2-2": {
+        "primaryKey": "root-1-1-2-2",
+        "properties": {
+         "root-1-1-2-2": {
+          "datatype": "integer"
+         },
+         "root-1-1-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-2-0-0.0.1/root-1-1-2-2-0",
+          "joinPropertyName": "root-1-1-2-2-0"
+         },
+         "root-1-1-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-2-1-0.0.1/root-1-1-2-2-1",
+          "joinPropertyName": "root-1-1-2-2-1"
+         },
+         "root-1-1-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-1-2-2-2-0.0.1/root-1-1-2-2-2",
+          "joinPropertyName": "root-1-1-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-0.0.1/root-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2": {
+        "primaryKey": "root-1-2",
+        "properties": {
+         "root-1-2": {
+          "datatype": "integer"
+         },
+         "root-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-0.0.1/root-1-2-0",
+          "joinPropertyName": "root-1-2-0"
+         },
+         "root-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-0.0.1/root-1-2-1",
+          "joinPropertyName": "root-1-2-1"
+         },
+         "root-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-0.0.1/root-1-2-2",
+          "joinPropertyName": "root-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-0-0.0.1/root-1-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-0": {
+        "primaryKey": "root-1-2-0",
+        "properties": {
+         "root-1-2-0": {
+          "datatype": "integer"
+         },
+         "root-1-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-0-0.0.1/root-1-2-0-0",
+          "joinPropertyName": "root-1-2-0-0"
+         },
+         "root-1-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-1-0.0.1/root-1-2-0-1",
+          "joinPropertyName": "root-1-2-0-1"
+         },
+         "root-1-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-2-0.0.1/root-1-2-0-2",
+          "joinPropertyName": "root-1-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-0-0-0.0.1/root-1-2-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-0-0": {
+        "primaryKey": "root-1-2-0-0",
+        "properties": {
+         "root-1-2-0-0": {
+          "datatype": "integer"
+         },
+         "root-1-2-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-0-0-0.0.1/root-1-2-0-0-0",
+          "joinPropertyName": "root-1-2-0-0-0"
+         },
+         "root-1-2-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-0-1-0.0.1/root-1-2-0-0-1",
+          "joinPropertyName": "root-1-2-0-0-1"
+         },
+         "root-1-2-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-0-2-0.0.1/root-1-2-0-0-2",
+          "joinPropertyName": "root-1-2-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-0-1-0.0.1/root-1-2-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-0-1": {
+        "primaryKey": "root-1-2-0-1",
+        "properties": {
+         "root-1-2-0-1": {
+          "datatype": "integer"
+         },
+         "root-1-2-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-1-0-0.0.1/root-1-2-0-1-0",
+          "joinPropertyName": "root-1-2-0-1-0"
+         },
+         "root-1-2-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-1-1-0.0.1/root-1-2-0-1-1",
+          "joinPropertyName": "root-1-2-0-1-1"
+         },
+         "root-1-2-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-1-2-0.0.1/root-1-2-0-1-2",
+          "joinPropertyName": "root-1-2-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-0-2-0.0.1/root-1-2-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-0-2": {
+        "primaryKey": "root-1-2-0-2",
+        "properties": {
+         "root-1-2-0-2": {
+          "datatype": "integer"
+         },
+         "root-1-2-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-2-0-0.0.1/root-1-2-0-2-0",
+          "joinPropertyName": "root-1-2-0-2-0"
+         },
+         "root-1-2-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-2-1-0.0.1/root-1-2-0-2-1",
+          "joinPropertyName": "root-1-2-0-2-1"
+         },
+         "root-1-2-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-0-2-2-0.0.1/root-1-2-0-2-2",
+          "joinPropertyName": "root-1-2-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-1-0.0.1/root-1-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-1": {
+        "primaryKey": "root-1-2-1",
+        "properties": {
+         "root-1-2-1": {
+          "datatype": "integer"
+         },
+         "root-1-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-0-0.0.1/root-1-2-1-0",
+          "joinPropertyName": "root-1-2-1-0"
+         },
+         "root-1-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-1-0.0.1/root-1-2-1-1",
+          "joinPropertyName": "root-1-2-1-1"
+         },
+         "root-1-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-2-0.0.1/root-1-2-1-2",
+          "joinPropertyName": "root-1-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-1-0-0.0.1/root-1-2-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-1-0": {
+        "primaryKey": "root-1-2-1-0",
+        "properties": {
+         "root-1-2-1-0": {
+          "datatype": "integer"
+         },
+         "root-1-2-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-0-0-0.0.1/root-1-2-1-0-0",
+          "joinPropertyName": "root-1-2-1-0-0"
+         },
+         "root-1-2-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-0-1-0.0.1/root-1-2-1-0-1",
+          "joinPropertyName": "root-1-2-1-0-1"
+         },
+         "root-1-2-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-0-2-0.0.1/root-1-2-1-0-2",
+          "joinPropertyName": "root-1-2-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-1-1-0.0.1/root-1-2-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-1-1": {
+        "primaryKey": "root-1-2-1-1",
+        "properties": {
+         "root-1-2-1-1": {
+          "datatype": "integer"
+         },
+         "root-1-2-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-1-0-0.0.1/root-1-2-1-1-0",
+          "joinPropertyName": "root-1-2-1-1-0"
+         },
+         "root-1-2-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-1-1-0.0.1/root-1-2-1-1-1",
+          "joinPropertyName": "root-1-2-1-1-1"
+         },
+         "root-1-2-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-1-2-0.0.1/root-1-2-1-1-2",
+          "joinPropertyName": "root-1-2-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-1-2-0.0.1/root-1-2-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-1-2": {
+        "primaryKey": "root-1-2-1-2",
+        "properties": {
+         "root-1-2-1-2": {
+          "datatype": "integer"
+         },
+         "root-1-2-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-2-0-0.0.1/root-1-2-1-2-0",
+          "joinPropertyName": "root-1-2-1-2-0"
+         },
+         "root-1-2-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-2-1-0.0.1/root-1-2-1-2-1",
+          "joinPropertyName": "root-1-2-1-2-1"
+         },
+         "root-1-2-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-1-2-2-0.0.1/root-1-2-1-2-2",
+          "joinPropertyName": "root-1-2-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-2-0.0.1/root-1-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-2": {
+        "primaryKey": "root-1-2-2",
+        "properties": {
+         "root-1-2-2": {
+          "datatype": "integer"
+         },
+         "root-1-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-0-0.0.1/root-1-2-2-0",
+          "joinPropertyName": "root-1-2-2-0"
+         },
+         "root-1-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-1-0.0.1/root-1-2-2-1",
+          "joinPropertyName": "root-1-2-2-1"
+         },
+         "root-1-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-2-0.0.1/root-1-2-2-2",
+          "joinPropertyName": "root-1-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-2-0-0.0.1/root-1-2-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-2-0": {
+        "primaryKey": "root-1-2-2-0",
+        "properties": {
+         "root-1-2-2-0": {
+          "datatype": "integer"
+         },
+         "root-1-2-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-0-0-0.0.1/root-1-2-2-0-0",
+          "joinPropertyName": "root-1-2-2-0-0"
+         },
+         "root-1-2-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-0-1-0.0.1/root-1-2-2-0-1",
+          "joinPropertyName": "root-1-2-2-0-1"
+         },
+         "root-1-2-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-0-2-0.0.1/root-1-2-2-0-2",
+          "joinPropertyName": "root-1-2-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-2-1-0.0.1/root-1-2-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-2-1": {
+        "primaryKey": "root-1-2-2-1",
+        "properties": {
+         "root-1-2-2-1": {
+          "datatype": "integer"
+         },
+         "root-1-2-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-1-0-0.0.1/root-1-2-2-1-0",
+          "joinPropertyName": "root-1-2-2-1-0"
+         },
+         "root-1-2-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-1-1-0.0.1/root-1-2-2-1-1",
+          "joinPropertyName": "root-1-2-2-1-1"
+         },
+         "root-1-2-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-1-2-0.0.1/root-1-2-2-1-2",
+          "joinPropertyName": "root-1-2-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-1-2-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-1-2-2-2-0.0.1/root-1-2-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-1-2-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-1-2-2-2": {
+        "primaryKey": "root-1-2-2-2",
+        "properties": {
+         "root-1-2-2-2": {
+          "datatype": "integer"
+         },
+         "root-1-2-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-2-0-0.0.1/root-1-2-2-2-0",
+          "joinPropertyName": "root-1-2-2-2-0"
+         },
+         "root-1-2-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-2-1-0.0.1/root-1-2-2-2-1",
+          "joinPropertyName": "root-1-2-2-2-1"
+         },
+         "root-1-2-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-1-2-2-2-2-0.0.1/root-1-2-2-2-2",
+          "joinPropertyName": "root-1-2-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-0.0.1/root-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2": {
+        "primaryKey": "root-2",
+        "properties": {
+         "root-2": {
+          "datatype": "integer"
+         },
+         "root-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0.0.1/root-2-0",
+          "joinPropertyName": "root-2-0"
+         },
+         "root-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0.0.1/root-2-1",
+          "joinPropertyName": "root-2-1"
+         },
+         "root-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0.0.1/root-2-2",
+          "joinPropertyName": "root-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-0.0.1/root-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0": {
+        "primaryKey": "root-2-0",
+        "properties": {
+         "root-2-0": {
+          "datatype": "integer"
+         },
+         "root-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-0.0.1/root-2-0-0",
+          "joinPropertyName": "root-2-0-0"
+         },
+         "root-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-0.0.1/root-2-0-1",
+          "joinPropertyName": "root-2-0-1"
+         },
+         "root-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-0.0.1/root-2-0-2",
+          "joinPropertyName": "root-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-0-0.0.1/root-2-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-0": {
+        "primaryKey": "root-2-0-0",
+        "properties": {
+         "root-2-0-0": {
+          "datatype": "integer"
+         },
+         "root-2-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-0-0.0.1/root-2-0-0-0",
+          "joinPropertyName": "root-2-0-0-0"
+         },
+         "root-2-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-1-0.0.1/root-2-0-0-1",
+          "joinPropertyName": "root-2-0-0-1"
+         },
+         "root-2-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-2-0.0.1/root-2-0-0-2",
+          "joinPropertyName": "root-2-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-0-0-0.0.1/root-2-0-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-0-0": {
+        "primaryKey": "root-2-0-0-0",
+        "properties": {
+         "root-2-0-0-0": {
+          "datatype": "integer"
+         },
+         "root-2-0-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-0-0-0.0.1/root-2-0-0-0-0",
+          "joinPropertyName": "root-2-0-0-0-0"
+         },
+         "root-2-0-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-0-1-0.0.1/root-2-0-0-0-1",
+          "joinPropertyName": "root-2-0-0-0-1"
+         },
+         "root-2-0-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-0-2-0.0.1/root-2-0-0-0-2",
+          "joinPropertyName": "root-2-0-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-0-1-0.0.1/root-2-0-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-0-1": {
+        "primaryKey": "root-2-0-0-1",
+        "properties": {
+         "root-2-0-0-1": {
+          "datatype": "integer"
+         },
+         "root-2-0-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-1-0-0.0.1/root-2-0-0-1-0",
+          "joinPropertyName": "root-2-0-0-1-0"
+         },
+         "root-2-0-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-1-1-0.0.1/root-2-0-0-1-1",
+          "joinPropertyName": "root-2-0-0-1-1"
+         },
+         "root-2-0-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-1-2-0.0.1/root-2-0-0-1-2",
+          "joinPropertyName": "root-2-0-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-0-2-0.0.1/root-2-0-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-0-2": {
+        "primaryKey": "root-2-0-0-2",
+        "properties": {
+         "root-2-0-0-2": {
+          "datatype": "integer"
+         },
+         "root-2-0-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-2-0-0.0.1/root-2-0-0-2-0",
+          "joinPropertyName": "root-2-0-0-2-0"
+         },
+         "root-2-0-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-2-1-0.0.1/root-2-0-0-2-1",
+          "joinPropertyName": "root-2-0-0-2-1"
+         },
+         "root-2-0-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-0-2-2-0.0.1/root-2-0-0-2-2",
+          "joinPropertyName": "root-2-0-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-1-0.0.1/root-2-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-1": {
+        "primaryKey": "root-2-0-1",
+        "properties": {
+         "root-2-0-1": {
+          "datatype": "integer"
+         },
+         "root-2-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-0-0.0.1/root-2-0-1-0",
+          "joinPropertyName": "root-2-0-1-0"
+         },
+         "root-2-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-1-0.0.1/root-2-0-1-1",
+          "joinPropertyName": "root-2-0-1-1"
+         },
+         "root-2-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-2-0.0.1/root-2-0-1-2",
+          "joinPropertyName": "root-2-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-1-0-0.0.1/root-2-0-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-1-0": {
+        "primaryKey": "root-2-0-1-0",
+        "properties": {
+         "root-2-0-1-0": {
+          "datatype": "integer"
+         },
+         "root-2-0-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-0-0-0.0.1/root-2-0-1-0-0",
+          "joinPropertyName": "root-2-0-1-0-0"
+         },
+         "root-2-0-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-0-1-0.0.1/root-2-0-1-0-1",
+          "joinPropertyName": "root-2-0-1-0-1"
+         },
+         "root-2-0-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-0-2-0.0.1/root-2-0-1-0-2",
+          "joinPropertyName": "root-2-0-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-1-1-0.0.1/root-2-0-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-1-1": {
+        "primaryKey": "root-2-0-1-1",
+        "properties": {
+         "root-2-0-1-1": {
+          "datatype": "integer"
+         },
+         "root-2-0-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-1-0-0.0.1/root-2-0-1-1-0",
+          "joinPropertyName": "root-2-0-1-1-0"
+         },
+         "root-2-0-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-1-1-0.0.1/root-2-0-1-1-1",
+          "joinPropertyName": "root-2-0-1-1-1"
+         },
+         "root-2-0-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-1-2-0.0.1/root-2-0-1-1-2",
+          "joinPropertyName": "root-2-0-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-1-2-0.0.1/root-2-0-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-1-2": {
+        "primaryKey": "root-2-0-1-2",
+        "properties": {
+         "root-2-0-1-2": {
+          "datatype": "integer"
+         },
+         "root-2-0-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-2-0-0.0.1/root-2-0-1-2-0",
+          "joinPropertyName": "root-2-0-1-2-0"
+         },
+         "root-2-0-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-2-1-0.0.1/root-2-0-1-2-1",
+          "joinPropertyName": "root-2-0-1-2-1"
+         },
+         "root-2-0-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-1-2-2-0.0.1/root-2-0-1-2-2",
+          "joinPropertyName": "root-2-0-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-2-0.0.1/root-2-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-2": {
+        "primaryKey": "root-2-0-2",
+        "properties": {
+         "root-2-0-2": {
+          "datatype": "integer"
+         },
+         "root-2-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-0-0.0.1/root-2-0-2-0",
+          "joinPropertyName": "root-2-0-2-0"
+         },
+         "root-2-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-1-0.0.1/root-2-0-2-1",
+          "joinPropertyName": "root-2-0-2-1"
+         },
+         "root-2-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-2-0.0.1/root-2-0-2-2",
+          "joinPropertyName": "root-2-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-2-0-0.0.1/root-2-0-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-2-0": {
+        "primaryKey": "root-2-0-2-0",
+        "properties": {
+         "root-2-0-2-0": {
+          "datatype": "integer"
+         },
+         "root-2-0-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-0-0-0.0.1/root-2-0-2-0-0",
+          "joinPropertyName": "root-2-0-2-0-0"
+         },
+         "root-2-0-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-0-1-0.0.1/root-2-0-2-0-1",
+          "joinPropertyName": "root-2-0-2-0-1"
+         },
+         "root-2-0-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-0-2-0.0.1/root-2-0-2-0-2",
+          "joinPropertyName": "root-2-0-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-2-1-0.0.1/root-2-0-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-2-1": {
+        "primaryKey": "root-2-0-2-1",
+        "properties": {
+         "root-2-0-2-1": {
+          "datatype": "integer"
+         },
+         "root-2-0-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-1-0-0.0.1/root-2-0-2-1-0",
+          "joinPropertyName": "root-2-0-2-1-0"
+         },
+         "root-2-0-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-1-1-0.0.1/root-2-0-2-1-1",
+          "joinPropertyName": "root-2-0-2-1-1"
+         },
+         "root-2-0-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-1-2-0.0.1/root-2-0-2-1-2",
+          "joinPropertyName": "root-2-0-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-0-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-0-2-2-0.0.1/root-2-0-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-0-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-0-2-2": {
+        "primaryKey": "root-2-0-2-2",
+        "properties": {
+         "root-2-0-2-2": {
+          "datatype": "integer"
+         },
+         "root-2-0-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-2-0-0.0.1/root-2-0-2-2-0",
+          "joinPropertyName": "root-2-0-2-2-0"
+         },
+         "root-2-0-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-2-1-0.0.1/root-2-0-2-2-1",
+          "joinPropertyName": "root-2-0-2-2-1"
+         },
+         "root-2-0-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-0-2-2-2-0.0.1/root-2-0-2-2-2",
+          "joinPropertyName": "root-2-0-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-0.0.1/root-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1": {
+        "primaryKey": "root-2-1",
+        "properties": {
+         "root-2-1": {
+          "datatype": "integer"
+         },
+         "root-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-0.0.1/root-2-1-0",
+          "joinPropertyName": "root-2-1-0"
+         },
+         "root-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-0.0.1/root-2-1-1",
+          "joinPropertyName": "root-2-1-1"
+         },
+         "root-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-0.0.1/root-2-1-2",
+          "joinPropertyName": "root-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-0-0.0.1/root-2-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-0": {
+        "primaryKey": "root-2-1-0",
+        "properties": {
+         "root-2-1-0": {
+          "datatype": "integer"
+         },
+         "root-2-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-0-0.0.1/root-2-1-0-0",
+          "joinPropertyName": "root-2-1-0-0"
+         },
+         "root-2-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-1-0.0.1/root-2-1-0-1",
+          "joinPropertyName": "root-2-1-0-1"
+         },
+         "root-2-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-2-0.0.1/root-2-1-0-2",
+          "joinPropertyName": "root-2-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-0-0-0.0.1/root-2-1-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-0-0": {
+        "primaryKey": "root-2-1-0-0",
+        "properties": {
+         "root-2-1-0-0": {
+          "datatype": "integer"
+         },
+         "root-2-1-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-0-0-0.0.1/root-2-1-0-0-0",
+          "joinPropertyName": "root-2-1-0-0-0"
+         },
+         "root-2-1-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-0-1-0.0.1/root-2-1-0-0-1",
+          "joinPropertyName": "root-2-1-0-0-1"
+         },
+         "root-2-1-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-0-2-0.0.1/root-2-1-0-0-2",
+          "joinPropertyName": "root-2-1-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-0-1-0.0.1/root-2-1-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-0-1": {
+        "primaryKey": "root-2-1-0-1",
+        "properties": {
+         "root-2-1-0-1": {
+          "datatype": "integer"
+         },
+         "root-2-1-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-1-0-0.0.1/root-2-1-0-1-0",
+          "joinPropertyName": "root-2-1-0-1-0"
+         },
+         "root-2-1-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-1-1-0.0.1/root-2-1-0-1-1",
+          "joinPropertyName": "root-2-1-0-1-1"
+         },
+         "root-2-1-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-1-2-0.0.1/root-2-1-0-1-2",
+          "joinPropertyName": "root-2-1-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-0-2-0.0.1/root-2-1-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-0-2": {
+        "primaryKey": "root-2-1-0-2",
+        "properties": {
+         "root-2-1-0-2": {
+          "datatype": "integer"
+         },
+         "root-2-1-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-2-0-0.0.1/root-2-1-0-2-0",
+          "joinPropertyName": "root-2-1-0-2-0"
+         },
+         "root-2-1-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-2-1-0.0.1/root-2-1-0-2-1",
+          "joinPropertyName": "root-2-1-0-2-1"
+         },
+         "root-2-1-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-0-2-2-0.0.1/root-2-1-0-2-2",
+          "joinPropertyName": "root-2-1-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-1-0.0.1/root-2-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-1": {
+        "primaryKey": "root-2-1-1",
+        "properties": {
+         "root-2-1-1": {
+          "datatype": "integer"
+         },
+         "root-2-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-0-0.0.1/root-2-1-1-0",
+          "joinPropertyName": "root-2-1-1-0"
+         },
+         "root-2-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-1-0.0.1/root-2-1-1-1",
+          "joinPropertyName": "root-2-1-1-1"
+         },
+         "root-2-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-2-0.0.1/root-2-1-1-2",
+          "joinPropertyName": "root-2-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-1-0-0.0.1/root-2-1-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-1-0": {
+        "primaryKey": "root-2-1-1-0",
+        "properties": {
+         "root-2-1-1-0": {
+          "datatype": "integer"
+         },
+         "root-2-1-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-0-0-0.0.1/root-2-1-1-0-0",
+          "joinPropertyName": "root-2-1-1-0-0"
+         },
+         "root-2-1-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-0-1-0.0.1/root-2-1-1-0-1",
+          "joinPropertyName": "root-2-1-1-0-1"
+         },
+         "root-2-1-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-0-2-0.0.1/root-2-1-1-0-2",
+          "joinPropertyName": "root-2-1-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-1-1-0.0.1/root-2-1-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-1-1": {
+        "primaryKey": "root-2-1-1-1",
+        "properties": {
+         "root-2-1-1-1": {
+          "datatype": "integer"
+         },
+         "root-2-1-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-1-0-0.0.1/root-2-1-1-1-0",
+          "joinPropertyName": "root-2-1-1-1-0"
+         },
+         "root-2-1-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-1-1-0.0.1/root-2-1-1-1-1",
+          "joinPropertyName": "root-2-1-1-1-1"
+         },
+         "root-2-1-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-1-2-0.0.1/root-2-1-1-1-2",
+          "joinPropertyName": "root-2-1-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-1-2-0.0.1/root-2-1-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-1-2": {
+        "primaryKey": "root-2-1-1-2",
+        "properties": {
+         "root-2-1-1-2": {
+          "datatype": "integer"
+         },
+         "root-2-1-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-2-0-0.0.1/root-2-1-1-2-0",
+          "joinPropertyName": "root-2-1-1-2-0"
+         },
+         "root-2-1-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-2-1-0.0.1/root-2-1-1-2-1",
+          "joinPropertyName": "root-2-1-1-2-1"
+         },
+         "root-2-1-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-1-2-2-0.0.1/root-2-1-1-2-2",
+          "joinPropertyName": "root-2-1-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-2-0.0.1/root-2-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-2": {
+        "primaryKey": "root-2-1-2",
+        "properties": {
+         "root-2-1-2": {
+          "datatype": "integer"
+         },
+         "root-2-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-0-0.0.1/root-2-1-2-0",
+          "joinPropertyName": "root-2-1-2-0"
+         },
+         "root-2-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-1-0.0.1/root-2-1-2-1",
+          "joinPropertyName": "root-2-1-2-1"
+         },
+         "root-2-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-2-0.0.1/root-2-1-2-2",
+          "joinPropertyName": "root-2-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-2-0-0.0.1/root-2-1-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-2-0": {
+        "primaryKey": "root-2-1-2-0",
+        "properties": {
+         "root-2-1-2-0": {
+          "datatype": "integer"
+         },
+         "root-2-1-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-0-0-0.0.1/root-2-1-2-0-0",
+          "joinPropertyName": "root-2-1-2-0-0"
+         },
+         "root-2-1-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-0-1-0.0.1/root-2-1-2-0-1",
+          "joinPropertyName": "root-2-1-2-0-1"
+         },
+         "root-2-1-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-0-2-0.0.1/root-2-1-2-0-2",
+          "joinPropertyName": "root-2-1-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-2-1-0.0.1/root-2-1-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-2-1": {
+        "primaryKey": "root-2-1-2-1",
+        "properties": {
+         "root-2-1-2-1": {
+          "datatype": "integer"
+         },
+         "root-2-1-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-1-0-0.0.1/root-2-1-2-1-0",
+          "joinPropertyName": "root-2-1-2-1-0"
+         },
+         "root-2-1-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-1-1-0.0.1/root-2-1-2-1-1",
+          "joinPropertyName": "root-2-1-2-1-1"
+         },
+         "root-2-1-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-1-2-0.0.1/root-2-1-2-1-2",
+          "joinPropertyName": "root-2-1-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-1-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-1-2-2-0.0.1/root-2-1-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-1-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-1-2-2": {
+        "primaryKey": "root-2-1-2-2",
+        "properties": {
+         "root-2-1-2-2": {
+          "datatype": "integer"
+         },
+         "root-2-1-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-2-0-0.0.1/root-2-1-2-2-0",
+          "joinPropertyName": "root-2-1-2-2-0"
+         },
+         "root-2-1-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-2-1-0.0.1/root-2-1-2-2-1",
+          "joinPropertyName": "root-2-1-2-2-1"
+         },
+         "root-2-1-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-1-2-2-2-0.0.1/root-2-1-2-2-2",
+          "joinPropertyName": "root-2-1-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-0.0.1/root-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2": {
+        "primaryKey": "root-2-2",
+        "properties": {
+         "root-2-2": {
+          "datatype": "integer"
+         },
+         "root-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-0.0.1/root-2-2-0",
+          "joinPropertyName": "root-2-2-0"
+         },
+         "root-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-0.0.1/root-2-2-1",
+          "joinPropertyName": "root-2-2-1"
+         },
+         "root-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-0.0.1/root-2-2-2",
+          "joinPropertyName": "root-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-0-0.0.1/root-2-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-0": {
+        "primaryKey": "root-2-2-0",
+        "properties": {
+         "root-2-2-0": {
+          "datatype": "integer"
+         },
+         "root-2-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-0-0.0.1/root-2-2-0-0",
+          "joinPropertyName": "root-2-2-0-0"
+         },
+         "root-2-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-1-0.0.1/root-2-2-0-1",
+          "joinPropertyName": "root-2-2-0-1"
+         },
+         "root-2-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-2-0.0.1/root-2-2-0-2",
+          "joinPropertyName": "root-2-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-0-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-0-0-0.0.1/root-2-2-0-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-0-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-0-0": {
+        "primaryKey": "root-2-2-0-0",
+        "properties": {
+         "root-2-2-0-0": {
+          "datatype": "integer"
+         },
+         "root-2-2-0-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-0-0-0.0.1/root-2-2-0-0-0",
+          "joinPropertyName": "root-2-2-0-0-0"
+         },
+         "root-2-2-0-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-0-1-0.0.1/root-2-2-0-0-1",
+          "joinPropertyName": "root-2-2-0-0-1"
+         },
+         "root-2-2-0-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-0-2-0.0.1/root-2-2-0-0-2",
+          "joinPropertyName": "root-2-2-0-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-0-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-0-1-0.0.1/root-2-2-0-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-0-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-0-1": {
+        "primaryKey": "root-2-2-0-1",
+        "properties": {
+         "root-2-2-0-1": {
+          "datatype": "integer"
+         },
+         "root-2-2-0-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-1-0-0.0.1/root-2-2-0-1-0",
+          "joinPropertyName": "root-2-2-0-1-0"
+         },
+         "root-2-2-0-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-1-1-0.0.1/root-2-2-0-1-1",
+          "joinPropertyName": "root-2-2-0-1-1"
+         },
+         "root-2-2-0-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-1-2-0.0.1/root-2-2-0-1-2",
+          "joinPropertyName": "root-2-2-0-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-0-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-0-2-0.0.1/root-2-2-0-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-0-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-0-2": {
+        "primaryKey": "root-2-2-0-2",
+        "properties": {
+         "root-2-2-0-2": {
+          "datatype": "integer"
+         },
+         "root-2-2-0-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-2-0-0.0.1/root-2-2-0-2-0",
+          "joinPropertyName": "root-2-2-0-2-0"
+         },
+         "root-2-2-0-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-2-1-0.0.1/root-2-2-0-2-1",
+          "joinPropertyName": "root-2-2-0-2-1"
+         },
+         "root-2-2-0-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-0-2-2-0.0.1/root-2-2-0-2-2",
+          "joinPropertyName": "root-2-2-0-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-1-0.0.1/root-2-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-1": {
+        "primaryKey": "root-2-2-1",
+        "properties": {
+         "root-2-2-1": {
+          "datatype": "integer"
+         },
+         "root-2-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-0-0.0.1/root-2-2-1-0",
+          "joinPropertyName": "root-2-2-1-0"
+         },
+         "root-2-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-1-0.0.1/root-2-2-1-1",
+          "joinPropertyName": "root-2-2-1-1"
+         },
+         "root-2-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-2-0.0.1/root-2-2-1-2",
+          "joinPropertyName": "root-2-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-1-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-1-0-0.0.1/root-2-2-1-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-1-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-1-0": {
+        "primaryKey": "root-2-2-1-0",
+        "properties": {
+         "root-2-2-1-0": {
+          "datatype": "integer"
+         },
+         "root-2-2-1-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-0-0-0.0.1/root-2-2-1-0-0",
+          "joinPropertyName": "root-2-2-1-0-0"
+         },
+         "root-2-2-1-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-0-1-0.0.1/root-2-2-1-0-1",
+          "joinPropertyName": "root-2-2-1-0-1"
+         },
+         "root-2-2-1-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-0-2-0.0.1/root-2-2-1-0-2",
+          "joinPropertyName": "root-2-2-1-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-1-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-1-1-0.0.1/root-2-2-1-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-1-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-1-1": {
+        "primaryKey": "root-2-2-1-1",
+        "properties": {
+         "root-2-2-1-1": {
+          "datatype": "integer"
+         },
+         "root-2-2-1-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-1-0-0.0.1/root-2-2-1-1-0",
+          "joinPropertyName": "root-2-2-1-1-0"
+         },
+         "root-2-2-1-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-1-1-0.0.1/root-2-2-1-1-1",
+          "joinPropertyName": "root-2-2-1-1-1"
+         },
+         "root-2-2-1-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-1-2-0.0.1/root-2-2-1-1-2",
+          "joinPropertyName": "root-2-2-1-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-1-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-1-2-0.0.1/root-2-2-1-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-1-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-1-2": {
+        "primaryKey": "root-2-2-1-2",
+        "properties": {
+         "root-2-2-1-2": {
+          "datatype": "integer"
+         },
+         "root-2-2-1-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-2-0-0.0.1/root-2-2-1-2-0",
+          "joinPropertyName": "root-2-2-1-2-0"
+         },
+         "root-2-2-1-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-2-1-0.0.1/root-2-2-1-2-1",
+          "joinPropertyName": "root-2-2-1-2-1"
+         },
+         "root-2-2-1-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-1-2-2-0.0.1/root-2-2-1-2-2",
+          "joinPropertyName": "root-2-2-1-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-2-0.0.1/root-2-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-2": {
+        "primaryKey": "root-2-2-2",
+        "properties": {
+         "root-2-2-2": {
+          "datatype": "integer"
+         },
+         "root-2-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-0-0.0.1/root-2-2-2-0",
+          "joinPropertyName": "root-2-2-2-0"
+         },
+         "root-2-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-1-0.0.1/root-2-2-2-1",
+          "joinPropertyName": "root-2-2-2-1"
+         },
+         "root-2-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-2-0.0.1/root-2-2-2-2",
+          "joinPropertyName": "root-2-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-2-0",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-2-0-0.0.1/root-2-2-2-0",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-2-0",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-2-0": {
+        "primaryKey": "root-2-2-2-0",
+        "properties": {
+         "root-2-2-2-0": {
+          "datatype": "integer"
+         },
+         "root-2-2-2-0-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-0-0-0.0.1/root-2-2-2-0-0",
+          "joinPropertyName": "root-2-2-2-0-0"
+         },
+         "root-2-2-2-0-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-0-1-0.0.1/root-2-2-2-0-1",
+          "joinPropertyName": "root-2-2-2-0-1"
+         },
+         "root-2-2-2-0-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-0-2-0.0.1/root-2-2-2-0-2",
+          "joinPropertyName": "root-2-2-2-0-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-2-1",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-2-1-0.0.1/root-2-2-2-1",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-2-1",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-2-1": {
+        "primaryKey": "root-2-2-2-1",
+        "properties": {
+         "root-2-2-2-1": {
+          "datatype": "integer"
+         },
+         "root-2-2-2-1-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-1-0-0.0.1/root-2-2-2-1-0",
+          "joinPropertyName": "root-2-2-2-1-0"
+         },
+         "root-2-2-2-1-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-1-1-0.0.1/root-2-2-2-1-1",
+          "joinPropertyName": "root-2-2-2-1-1"
+         },
+         "root-2-2-2-1-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-1-2-0.0.1/root-2-2-2-1-2",
+          "joinPropertyName": "root-2-2-2-1-2"
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityName": "root-2-2-2-2",
+     "entityTypeId": "http://marklogic.com/example/root-2-2-2-2-0.0.1/root-2-2-2-2",
+     "entityInstanceCount": 2,
+     "model": {
+      "info": {
+       "title": "root-2-2-2-2",
+       "version": "0.0.1",
+       "baseUri": "http://marklogic.com/example/"
+      },
+      "definitions": {
+       "root-2-2-2-2": {
+        "primaryKey": "root-2-2-2-2",
+        "properties": {
+         "root-2-2-2-2": {
+          "datatype": "integer"
+         },
+         "root-2-2-2-2-0": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-2-0-0.0.1/root-2-2-2-2-0",
+          "joinPropertyName": "root-2-2-2-2-0"
+         },
+         "root-2-2-2-2-1": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-2-1-0.0.1/root-2-2-2-2-1",
+          "joinPropertyName": "root-2-2-2-2-1"
+         },
+         "root-2-2-2-2-2": {
+          "datatype": "integer",
+          "relatedEntityType": "http://example.org/root-2-2-2-2-2-0.0.1/root-2-2-2-2-2",
+          "joinPropertyName": "root-2-2-2-2-2"
+         }
+        }
+       }
+      }
+     }
+    }
+   ]

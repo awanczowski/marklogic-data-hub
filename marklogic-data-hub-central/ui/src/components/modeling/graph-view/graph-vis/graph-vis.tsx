@@ -8,6 +8,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import NodeSvg from "./node-svg";
 import { Menu, Dropdown } from 'antd';
 import { DataSet } from 'vis-data';
+import {useHistory} from "react-router-dom";
 
 type Props = {
   entityTypes: any;
@@ -40,7 +41,39 @@ const defaultNodeProps: any = {
   },
 };
 
+var nodesDS2 = [
+  {id: 1, label: 'Node 1'},
+  {id: 2, label: 'Node 2'},
+  {id: 3, label: 'Node 3'},
+  {id: 4, label: 'Node 4'},
+  {id: 5, label: 'Node 5'}
+];
+
+var edgesDS = new DataSet([
+  {id: "a", from: 1, to: 3},
+  {id: "b", from: 1, to: 2},
+  {id: "c", from: 2, to: 4},
+  {id: "d", from: 2, to: 5}
+]);
+
+var edgesDS2 = [
+  {id: "a", from: 1, to: 3},
+  {id: "b", from: 1, to: 2},
+  {id: "c", from: 2, to: 4},
+  {id: "d", from: 2, to: 5}
+];
+
 const GraphVis: React.FC<Props> = (props) => {
+
+  var nodesDS: any = new DataSet([
+    {
+      id: "Customer",
+      shape: "box",
+      label: "Test",
+    }
+  ]);
+
+  let history = useHistory();
 
   const graphRef = useRef(null);
   let graphType = "shape";
@@ -49,10 +82,15 @@ const GraphVis: React.FC<Props> = (props) => {
   let emptyNodes = new DataSet();
   let emptyEdges = new DataSet();
 
+  interface GraphData {
+    nodes: any;
+    edges: any;
+  }
+
   const [nodePositions, setNodePositions] = useState({});
   const [physicsEnabled, setPhysicsEnabled] = useState(true);
   //const [graphData, setGraphData] = useState({nodes: [], edges: []});
-  const [graphData, setGraphData] = useState({nodes: emptyNodes, edges: emptyEdges});
+  const [graphData, setGraphData] = useState<GraphData>({nodes: nodesDS, edges: emptyEdges});
   const [testingMode, setTestingMode] = useState(true); // Should be used further to handle testing only in non-production environment
   
   const [contextMenuVisible, setContextMenuVisible] = useState(false);
@@ -60,6 +98,7 @@ const GraphVis: React.FC<Props> = (props) => {
   const [contextClick, setContextClick] = useState(false);
 
   const [clickedNode, setClickedNode] = useState("");
+  const [clickedEdge, setClickedEdge] = useState("");
 
   //Initializing network instance
   const [network, setNetwork] = useState<any>(null);
@@ -69,18 +108,29 @@ const GraphVis: React.FC<Props> = (props) => {
   const [hoveringNode, setHoveringNode] = useState<string | undefined>(undefined);
   const hoverColor: string = "#E9F7FE";
 
+  const [hoveringInstances, setHoveringInstances] = useState<string | undefined>(undefined);
+  const hoverInstances: string = "#CC0000";
+
   // Initialize or update graph
+  // @ts-ignore
   useEffect(() => {
     // TODO use DataSet to performantly manage changes to graph data (don't rerender everything on change)
-    let nodes = new DataSet(getNodes());
-    setGraphData({
-      //nodes: nodes,
-      nodes: getNodes(),
-      edges: getEdges()
-    });
+    // let nodes = new DataSet(getNodes());
+    let nodes1 = getNodes();
+    console.log("nodes1", nodes1);
+    if (nodes1.length > 0) {
+      let nodes = new DataSet(getNodes());
+      console.log("nodes", nodes);
+      nodesDS.update({id: "Customer", label: "Changed"})
+      // setGraphData({
+      //   nodes: nodes,
+      //   //nodes: getNodes(),
+      //   edges: getEdges()
+      // });
+    }
     // let items = emptyDataSet.get();
     // console.log("emptyDataSet", items);
-  }, [props.entityTypes]);
+  }, [props.entityTypes, hoveringNode]);
 
   // useEffect(() => {
   //   // TODO use DataSet to performantly manage changes to graph data (don't rerender everything on change)
@@ -190,7 +240,8 @@ const GraphVis: React.FC<Props> = (props) => {
         return {
           id: e.entityName,
           label: "",
-          title: e.model.definitions[e.entityName].description ? e.model.definitions[e.entityName].description : "Description is not available for the entity",
+          //title: e.model.definitions[e.entityName].description ? e.model.definitions[e.entityName].description : "Description is not available for the entity",
+          title: e.entityName + " tooltip text",
           image: "data:image/svg+xml;charset=utf-8," + node.getSvg(),
           shape: "image",
           chosen: function (values, id, selected, hovering) {
@@ -276,21 +327,88 @@ const GraphVis: React.FC<Props> = (props) => {
     }
   };
 
+  // Settings for determining numInstance clicks for different graph types
+  const graphSettings: any = {
+    image: {
+      numInstances: {
+        leftOffset: 6.5,
+        topOffset:  27,
+        height: 7,
+        numWidth: 6.5
+      }
+    },
+    shape: {
+      numInstances: {
+        leftOffset: 12,
+        topOffset:  28,
+        height: 9,
+        numWidth: 6.5
+      }
+    }
+  };
+
+  // Given a number, how many digits are in it?
+  const getNumDigits = (num) => {
+    return num.toString().length;
+  }
+
+  // Given a node ID, a set of coordinates from a click, and a network object,
+  // return whether the click coordinates occurred within the node.
+  const insideNumInstances = (entityName, numDigits, pointerX, pointerY, network) => {
+    // bounds for node shape
+    let left = network.body.nodes[entityName].shape.left;
+    let top = network.body.nodes[entityName].shape.top;
+    // bounds for instances container
+    let leftNums = left + graphSettings[graphType].numInstances.leftOffset;
+    let topNums = top + graphSettings[graphType].numInstances.topOffset;
+    let heightNums = graphSettings[graphType].numInstances.height;
+    let widthNums = graphSettings[graphType].numInstances.numWidth * numDigits;
+    return (
+      (pointerY > topNums) && (pointerY < (topNums + heightNums)) &&
+      (pointerX > leftNums) && (pointerX < (leftNums + widthNums)))
+  }
+
+  const getMethods = (obj) => {
+    let properties: any = new Set()
+    let currentObj = obj
+    do {
+      Object.getOwnPropertyNames(currentObj).map(item => properties.add(item))
+    } while ((currentObj = Object.getPrototypeOf(currentObj)))
+    return [...properties.keys()].filter(item => typeof obj[item] === 'function')
+  }
+
   const events = {
     /* "oncontext" may not include node that was clicked so we have check it in "click"
      * to accurately open the context menu when a node is right-clicked. "click" fires 
      * AFTER "oncontext" so we can check an oncontext flag and the node array.
-     *
      */
     click: (event) => {
-      console.log("click", event);
-      console.log("click nodes", network);
+      console.log("click event", event);
+      console.log("click network", network);
+      //console.log(event.pointer.canvas.x, event.pointer.canvas.y);
       let {nodes, edges} = event;
+      // if (nodes.length > 0) {
+      //   console.log("instancesClicked", insideNumInstances(nodes[0], getNumDigits(entityMetadata[nodes[0]].instances), event.pointer.canvas.x, event.pointer.canvas.y, network));
+      // }
       // Was iit originally an oncontext click and was it on a node?
       if (contextClick && nodes.length > 0) {
-        setClickedNode(nodes[0])
+        setClickedNode(nodes[0]);
+        setClickedEdge("");
         setContextMenuVisible(true);
-      } else {
+      }  else if (contextClick && edges.length > 0) {
+        setClickedNode("");
+        setClickedEdge(edges[0]);
+        setContextMenuVisible(true);
+      } 
+      else if (nodes.length > 0 && insideNumInstances(nodes[0], getNumDigits(entityMetadata[nodes[0]].instances), event.pointer.canvas.x, event.pointer.canvas.y, network)) {
+        console.log("instances number WAS CLICKED!");
+        setContextMenuVisible(false);
+        history.push({
+          pathname: "/tiles/explore",
+          state: {entity: nodes[0]}
+        });
+      } 
+      else {
         setContextMenuVisible(false);
       }
       setContextClick(false); // reset flag
@@ -318,9 +436,10 @@ const GraphVis: React.FC<Props> = (props) => {
       setNodePositions({[event.nodes[0]]: event.pointer.canvas});
     },
     hoverNode: (event) => {
-      //console.log("on hover node", event, document);
+      console.log("on hover node", event, document, network);
+      console.log("getMethods network", getMethods(network));
       event.event.target.style.cursor = "pointer";
-      //setHoveringNode(event.node);
+      setHoveringNode(event.node);
     },
     blurNode: (event) => {
       //console.log("on blur node", event);
@@ -356,17 +475,24 @@ const GraphVis: React.FC<Props> = (props) => {
     return (
     // <Menu onClick={menuClick}>
     <Menu onClick={menuClick}>
+      { clickedNode &&
       <Menu.Item key="1">
-        <Link
-          to={{
-            pathname: "/tiles/explore",
-            state: {entity: clickedNode}
-          }}
-        >
-         {123}
+        <Link to={{ pathname: "/tiles/explore", state: {entity: clickedNode}}}>
+          {"Explore " + clickedNode + " instances"}
         </Link>
-      </Menu.Item>
-      <Menu.Item key="2">2nd menu item</Menu.Item>
+      </Menu.Item> }
+      { clickedNode &&
+      <Menu.Item key="1">
+        {"Delete entity"}
+        </Menu.Item> }
+      { clickedEdge &&
+      <Menu.Item key="1">
+        {"Edit relationship"}
+      </Menu.Item> }
+      { clickedEdge &&
+      <Menu.Item key="1">
+        {"Delete relationship"}
+      </Menu.Item> }
       <Menu.Item key="3">3rd menu item</Menu.Item>
     </Menu>
   )};
@@ -379,12 +505,14 @@ const GraphVis: React.FC<Props> = (props) => {
         visible={contextMenuVisible}
       >
         <div>
+          { props.entityTypes && 
           <Graph
             graph={graphData}
             options={options}
             events={events}
             getNetwork={initNetworkInstance}
           />
+          }
         </div>
       </Dropdown>
     </div>

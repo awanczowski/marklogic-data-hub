@@ -12,6 +12,8 @@ import GraphViewSidePanel from "./side-panel/side-panel";
 import {ModelingContext} from "../../../util/modeling-context";
 import {defaultModelingView} from "../../../config/modeling.config";
 import GraphVis from "./graph-vis/graph-vis";
+import entities100 from "./entities100.json";
+
 
 type Props = {
   entityTypes: any;
@@ -127,6 +129,7 @@ const GraphView: React.FC<Props> = (props) => {
       <div>
         <GraphVis
           entityTypes={props.entityTypes}
+          //entityTypes={entities100}
           handleEntitySelection={handleEntitySelection}
         />
       </div>
