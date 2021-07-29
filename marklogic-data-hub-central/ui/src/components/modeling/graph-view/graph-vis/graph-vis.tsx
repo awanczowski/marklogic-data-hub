@@ -89,8 +89,8 @@ const GraphVis: React.FC<Props> = (props) => {
 
   const [nodePositions, setNodePositions] = useState({});
   const [physicsEnabled, setPhysicsEnabled] = useState(true);
-  //const [graphData, setGraphData] = useState({nodes: [], edges: []});
-  const [graphData, setGraphData] = useState<GraphData>({nodes: nodesDS, edges: emptyEdges});
+  const [graphData, setGraphData] = useState({nodes: [], edges: []});
+  //const [graphData, setGraphData] = useState<GraphData>({nodes: nodesDS, edges: emptyEdges});
   const [testingMode, setTestingMode] = useState(true); // Should be used further to handle testing only in non-production environment
   
   const [contextMenuVisible, setContextMenuVisible] = useState(false);
@@ -121,12 +121,12 @@ const GraphVis: React.FC<Props> = (props) => {
     if (nodes1.length > 0) {
       let nodes = new DataSet(getNodes());
       console.log("nodes", nodes);
-      nodesDS.update({id: "Customer", label: "Changed"})
-      // setGraphData({
-      //   nodes: nodes,
-      //   //nodes: getNodes(),
-      //   edges: getEdges()
-      // });
+      //nodesDS.update({id: "Customer", label: "Changed"})
+      setGraphData({
+        //nodes: nodes,
+        nodes: getNodes(),
+        edges: getEdges()
+      });
     }
     // let items = emptyDataSet.get();
     // console.log("emptyDataSet", items);
