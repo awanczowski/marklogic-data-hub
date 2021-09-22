@@ -59,14 +59,14 @@
   justify-content: space-between;
 
   .backButtonHeader {
-    //border: 1px solid red; 
+    //border: 1px solid red;
     margin-right: 30px;
     display: flex;
     //width: 60%;
   }
 
   .documentMetadataContainer {
-    display: flex; 
+    display: flex;
     align-items: center;
 
     > .metadataCollapseIcon {
@@ -77,10 +77,10 @@
         border-radius: 5px 0px 0px 5px;
         cursor: pointer;
       }
-    
+
       .collapseExpandIcons{
         font-size: 16px;
-        color: #000; 
+        color: #000;
       }
     }
   }
@@ -123,6 +123,95 @@
   font-weight: 200;
   top: 4px;
   display: inline-block;
+}
+
+.collectionsTableLabel {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .collectionsTable {
+    padding-top: 5px;
+
+    & thead > tr > th {
+      color: #44499C;
+      background-color: #E7E7E8;
+    };
+  }
+
+  .recordMetadataTableLabel {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .recordMetadataTable {
+    padding-top: 5px;
+
+    & thead > tr > th {
+      color: #44499C;
+      background-color: #E7E7E8;
+    };
+  }
+  .recordPermissionsTableLabel {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .recordPermissionsTable {
+    padding-top: 5px;
+
+    & thead > tr > th {
+      color: #44499C;
+      background-color: #E7E7E8;
+    };
+  }
+
+  .provTableLabel {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  .provTable {
+    padding-top: 5px;
+
+    & thead > tr > th {
+      color: #44499C;
+      background-color: #E7E7E8;
+    };
+  }
+
+  .documentPropertiesLabel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .documentPropertiesContainer {
+    padding-top: 5px;
+  }
+
+.docInfoContainer {
+	padding-top: 8px;
+	padding-bottom: 6px;
+
+	.metaItem {
+		display: inline-block;
+		min-width: 260px;
+	}
+
+	.metaLabel {
+		font-weight: bold;
+		color: #666;
+		padding-right: 8px;
+	}
+
+	.metaValue {
+		padding-right: 15px;
+  }
+  .format {
+    padding-right: 5px;
+    text-transform: uppercase;
+  }
 }
 
 .documentContainer{
